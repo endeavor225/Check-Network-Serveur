@@ -1,0 +1,19 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "build": "pkg -t node18-linux-x64 -o server --public server.js "
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "knex": "^3.0.1",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
